@@ -1,40 +1,54 @@
-1. ros2 launch urdf_tutorial display.launch.py model:=/home/kuba/ROS2_Gazebo/my_robot.urdf
-	odpala wizuwalizację w rviz
+1. `ros2 launch urdf_tutorial display.launch.py model:=/home/kuba/ROS2_Gazebo/my_robot.urdf`
+   - Launches the visualization in RViz.
 
-2. ros2 run tf2_tools view_frames -o my_robot_frames
-	tworzy pdfa o nazwie my_robot_frames z wizualizacją całego projektu
-	
-3. rqt_graph
-	tworzy listę nodów i topiców
-	
-4. ros2 topic list
-	tworzy listę topiców
+2. `ros2 run tf2_tools view_frames -o my_robot_frames`
+   - Creates a PDF named `my_robot_frames` with a visualization of the entire project.
 
-5. ros2 node list
-	tworzy listę nodów
+3. `rqt_graph`
+   - Generates a graph of nodes and topics.
 
-6. ros2 param list /name_of_the_node
-	tworzy listę parametrów danego noda
-	
-7. ros2 param get /name_of_the_node name_of_the_param
-	pokazuje zawartość pliku parametru 
+4. `ros2 topic list`
+   - Displays a list of topics.
 
-8. ros2 topic echo /name_of_the_topic
-	
-9. ros2 run joint_state_publisher_gui joint_state_publisher_gui 
-	odpala suwaki joiintów
+5. `ros2 node list`
+   - Displays a list of nodes.
 
-10. ros2 run rviz2 rviz2
-	odpala rviz
-	
-11. colcon build --symlink-install
-12. source install/setup.bash
-13. ros2 pkg create my_robot_description (w description powinno zapisywać się pliki urdf)
-	tworzy pkg pod urdf 
-	
-14. xmlns:xacro="http://www.ros.org/wiki/xacro - dodać do plików .urdf.xacro
+6. `ros2 param list /name_of_the_node`
+   - Displays a list of parameters for a given node.
 
-15. ros2 launch my_robot_description display_launch.xml
+7. `ros2 param get /name_of_the_node name_of_the_param`
+   - Shows the value of a specific parameter for the given node.
 
-16. <xacro:property name="base_lenght" value="0.6"/>
-	tworzenie zmiennych w pliku urdf za pomoca xacro
+8. `ros2 topic echo /name_of_the_topic`
+   - Outputs the messages published on a specific topic.
+
+9. `ros2 run joint_state_publisher_gui joint_state_publisher_gui`
+   - Launches the joint state publisher GUI with sliders for controlling joints.
+
+10. `ros2 run rviz2 rviz2`
+    - Launches RViz.
+
+11. `colcon build --symlink-install`
+    - Builds the ROS 2 workspace using `colcon` with symlinked installs for easier debugging.
+
+12. `source install/setup.bash`
+    - Sources the setup script to configure the environment for the ROS 2 workspace.
+
+13. `ros2 pkg create my_robot_description`
+    - Creates a ROS 2 package named `my_robot_description` (used for storing URDF files).
+
+14. `xmlns:xacro="http://www.ros.org/wiki/xacro"`
+    - Adds the `xacro` namespace to URDF `.xacro` files.
+
+15. `ros2 launch my_robot_description display_launch.xml`
+    - Launches the display of the robot model using the specified launch file.
+
+16. `<xacro:property name="base_length" value="0.6"/>`
+    - Defines a variable in a URDF file using `xacro`.
+    
+17. ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro my_robot.urdf.xacro)" 
+
+18. ros2 launch gazebo_ros gazebo.launch.py
+19. ros2 run gazebo_ros spawn_entity.py -topic robot_description -entity my_robot.urdf.xacro
+
+
