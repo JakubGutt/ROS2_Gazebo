@@ -1,0 +1,458 @@
+[0.114s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/kuba/ROS2_Gazebo']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/kuba/ROS2_Gazebo'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76289aab4b80>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x76289aca5810>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x76289aca5810>>)
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.285s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kuba/ROS2_Gazebo'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/build) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/build) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/build) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/install) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/install) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/install) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/log) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/log) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/log) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/my_robot_bringup) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/my_robot_bringup) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/my_robot_bringup) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/my_robot_bringup) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/my_robot_bringup) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/my_robot_bringup) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/my_robot_bringup) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/my_robot_bringup) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package '/home/kuba/ROS2_Gazebo/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/CMakeTmp) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/my_robot_description_uninstall.dir) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/CMakeFiles/uninstall.dir) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240808-0847) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/20240809-0727) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/Testing/Temporary) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_core/stamps) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_environment_hooks) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_package_templates) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_cmake_uninstall_target) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_lint_cmake) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/build/ament_xmllint) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/my_robot_description) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/my_robot_description) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/my_robot_description) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/my_robot_description) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/my_robot_description) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/my_robot_description) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/my_robot_description) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kuba/ROS2_Gazebo/src/my_robot_description) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package '/home/kuba/ROS2_Gazebo/src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
